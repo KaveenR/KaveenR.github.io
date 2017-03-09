@@ -1,0 +1,77 @@
+/* Pallet RED - 962D3E GRR -343642 GRY - 979C9C  CRM - F2EBC7 BLU - 348899 */
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Montserrat');
+html,body {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(rgba(255,255,255,0.1),rgba(255,255,255,0.1)), url("../images/bkg.jpg");
+  background-position: bottom;
+  background-size: cover;
+  color: #111;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1,h2,h3,h4,h5{
+  font-family: 'Merriweather', serif;
+}
+
+.stage {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  height: 100%;
+}
+
+.spotlight {
+  width: 50%;
+  margin: 3em;
+}
+
+.spotlight .face {
+  height : 300px;
+  border-radius: 100%;
+}
+
+.spotlight .story {
+  width: 100%;
+  background-color: white;
+  padding: 3em 1.5em;
+}
+
+.mini-nav {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  font-size: 1.2em;
+  background-color: white;
+  padding: 0.5em 2em;
+  border-radius: 25px;
+
+  position: fixed;
+  bottom: 3em;
+}
+
+.mini-nav li {
+  display: inline;
+  font-size: 1.3em;
+}
+
+.mini-nav a {
+  color: #962D3E;
+}
+
+.mini-nav a:hover {
+  color: #962D3E;
+  text-decoration: none;
+  border-bottom: 2px dotted #962D3E;
+}
+
+.mini-nav li:after {
+  content: "/";
+  padding: 0 0.5em;
+}
+
+.mini-nav li:last-child:after {
+  content: none;
+  padding: 0 0;
+}
