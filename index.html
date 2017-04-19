@@ -3,9 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="initial-scale=1.0">
   <title>Kaveen Rodrigo</title>
-  <meta name="description" content="Software Enginnering student, dabbles in a plethora of hobbies spanning from photography, music to electonics">
   <link rel="amphtml" href="https://www.kaveenrodrigo.com/amp_index.html">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
     integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -15,17 +14,26 @@
   <div class="container stage">
     <div class="spotlight text-center">
       <article class="story">
-        <img src="images/me.jpg" alt="" class="face">
-        <h1>Kaveen Rodrigo</h1>
+        <div id="hackit" class="flipper face">
+          <div class="front side">
+            <img src="images/me.jpg" alt="" class="face">
+          </div>
+          <div class="back side">
+            <img src="images/tiger.jpg" alt="" class="face">
+          </div>
+        </div>
+        <h1 id="name">Kaveen Rodrigo</h1>
         <p>Software Enginnering student, dabbles in a plethora of hobbies spanning from <br>photography, music to electonics</p>
       </article>
       <hr>
       <ul class="mini-nav">
         <li><a href="http://blog.kaveenrodrigo.com">Blog</a></li>
         <li><a target="_blank" href="https://www.instagram.com/enigmamaker/">Instagram</a></li>
-        <li><a target="_blank" href="https://twitter.com/enigmamaker">Twitter</a></li>
         <li><a target="_blank" href="https://www.linkedin.com/in/kaveenrodrigo/">LinkedIn</a></li>
       </ul>
+    </div>
+    <div class="the-net hidden-sm">
+      <a id="hack" href="#hack">π</a>
     </div>
   </div>
 
@@ -34,15 +42,7 @@
   crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
   integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-  <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-    ga('create', 'UA-85336068-1', 'auto');
-    ga('send', 'pageview');
-  </script>
+  <script src="js/main.js" charset="utf-8"></script>
   <script type="application/ld+json">
     {
       "@context": "http://schema.org",
@@ -58,6 +58,15 @@
       "name": "Kaveen Rodrigo",
       "url": "http://www.kaveenrodrigo.com"
     }
-</script>
+  </script>
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-85336068-1', 'auto');
+    ga('send', 'pageview');
+  </script>
 </body>
 </html>

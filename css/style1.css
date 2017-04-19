@@ -67,3 +67,43 @@ h1,h2,h3,h4,h5{
   content: none;
   padding: 0 0;
 }
+
+.flipper {
+  transform-style: preserve-3d;
+  transition: transform 1s;
+  position: relative;
+}
+
+.flipped {
+  transform: rotateY( 180deg ) ;
+}
+
+.flipper .side {
+  position: absolute;
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+.flipper .front {
+  position: absolute;
+  display: block;
+  backface-visibility: hidden;
+}
+
+.flipper .back {
+  backface-visibility: hidden;
+  transform: rotateY( 180deg );
+}
+
+.the-net {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 5px;
+}
+
+.the-net a {
+  text-decoration: none;
+  color: #333;
+}
