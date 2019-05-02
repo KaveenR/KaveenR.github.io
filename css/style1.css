@@ -35,6 +35,7 @@ h1,h2,h3,h4,h5{
 .spotlight .story {
   width: 100%;
   background-color: white;
+  line-height: 3em;
 }
 
 .mini-nav {
@@ -68,34 +69,6 @@ h1,h2,h3,h4,h5{
   padding: 0 0;
 }
 
-.flipper {
-  transform-style: preserve-3d;
-  transition: transform 1s;
-  position: relative;
-}
-
-.flipped {
-  transform: rotateY( 180deg ) ;
-}
-
-.flipper .side {
-  position: absolute;
-  display: block;
-  height: 100%;
-  width: 100%;
-}
-
-.flipper .front {
-  position: absolute;
-  display: block;
-  backface-visibility: hidden;
-}
-
-.flipper .back {
-  backface-visibility: hidden;
-  transform: rotateY( 180deg );
-}
-
 .the-net {
   position: absolute;
   bottom: 0;
@@ -106,8 +79,4 @@ h1,h2,h3,h4,h5{
 .the-net a {
   text-decoration: none;
   color: #333;
-}
-
-.cacti-container {
-  margin-top: 35px;
 }
