@@ -1,0 +1,11 @@
+{{ define "main" }}
+<div class="d-flex stage justify-content-center align-items-center">
+    <div class="spotlight">
+        <img src="{{ .Site.BaseURL }}{{ .Site.Params.avatar }}" alt="face" class="face">
+        <h1 id="name">{{ .Site.Params.name }}</h1>
+        {{.Content}}
+        <hr>
+        {{- partial "navigator.html" . -}}
+    </div>
+</div>
+{{ end }}
