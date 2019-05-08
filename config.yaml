@@ -1,8 +1,0 @@
-publishDir: docs
-baseURL: https://kaveenrodrigo.com/
-languageCode: en-us
-title: Kaveen Rodrigo
-theme: legacy
-params:
-  name: Kaveen Rodrigo
-  avatar: me.jpg
